@@ -12,7 +12,7 @@ def meal_choice(breakfast, lunch, dinner)
   breakfast = get.chomp
   lunch = get.chomp
   dinner = get.chomp
-  return "Morning is the best time for #{breafast}"
+  return "Morning is the best time for #{breakfast}"
   return "Midday is the best time for #{lunch}"
   return "Evening is the best time for #{dinner}"
 end 
