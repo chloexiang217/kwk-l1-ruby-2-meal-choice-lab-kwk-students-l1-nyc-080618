@@ -5,15 +5,15 @@ end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
-def meal_choice(breakfast = "frosted flakes")
+def breakfast(breakfast = "frosted flakes")
   "Morning is the best time for #{breakfast}"
 end 
   
-def meal_choice(lunch = "grilled cheese")
+def lunch(lunch = "grilled cheese")
     "Midday is the best time for #{lunch}"
 end 
 
-def meal_choice(dinner = "salmon")
+def dinner(dinner = "salmon")
   "Evening is the best time for #{dinner}"
 end
 
